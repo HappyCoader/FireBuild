@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+*{
+
+    padding: 0;margin: 0;box-sizing: border-box;  
+    list-style: none;text-decoration: none;
+    overflow-x: hidden;
+}
+html{
+    font-size: 1rem;
+}
+
+.bg{
+    width: 100%;
+    height: min-content;
+    background-size: 100% 100%;
+    background-image: url(../bg/bg2.jpg);
+    z-index: 1;
+ padding-bottom: 4rem;
+  
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+nav::before{
+    content: '';
+    width: 100%;
+    height: 8rem;
+    background-color: #9C113A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+ ul{
+  
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+   
+}
+li{
+    padding-left: 1rem;
+}
+
+li a{
+    font-size: 1.5rem;
+    
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+margin-top: 4rem;
+    
+}
+li a:hover{
+    color: white;
+}
+.app{
+    font-weight: bold;
+font-size: 1rem;
+background-image: url(../bg/bg1.jpg);
+background-size:100% 100%;
+background-repeat: no-repeat;
+color: white;
+padding: 0.3rem 1rem;
+border-radius: 1rem;
+margin-right: 1rem;
+margin-left:1rem;
+cursor: pointer;
+border: 0.2rem solid white;
+
+}
+.app:hover{
+    background-image: url(../bg/bg.jpg);
+background-size:100% 100%;
+background-repeat: no-repeat;
+}
+.create,.backendbtn,.designbtn{
+    font-weight: bold;
+font-size: 1rem;
+background-color: rgb(209, 209, 221);
+color: rgb(182, 17, 140);
+padding: 0.9rem 1rem;
+/* border-radius: 1rem; */
+margin-right: 1rem;
+margin-left:1rem;
+cursor: pointer;
+border: 0.1rem solid rgb(250, 250, 250);
+border-radius: 5rem;
+}
+.create:hover{
+    background-color: rgb(216, 216, 216);
+    color: rgba(22, 150, 143, 0.575);
+}
+.designbtn:hover{
+    background-color: rgb(216, 216, 216);
+    color: rgba(22, 150, 143, 0.575);
+}
+.backendbtn:hover{
+    background-color: rgb(216, 216, 216);
+    color: rgba(22, 150, 143, 0.575);
+}
+.hire{
+    font-weight: bold;
+font-size: 1rem;
+background-image: url(../bg/bg1.jpg);
+background-size:100% 100%;
+background-repeat: no-repeat;
+color: white;
+padding: 0.9rem 1rem;
+/* border-radius: 1rem; */
+margin-right: 1rem;
+margin-left:1rem;
+cursor: pointer;
+border: 0.2rem solid white;
+
+}
+.hire:hover{
+    background-image: url(../bg/bg.jpg);
+background-size:100% 100%;
+background-repeat: no-repeat;
+}
+.headline{
+    display: flex;
+    width: 100%;
+
+}
+.content{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    color: rgb(211, 211, 211);
+}
+.girl{
+    margin-top: 3rem;
+    height: 30rem;
+}
+.title{
+    color: rgb(17, 13, 255);
+    font-size: 2rem;
+     font-weight: bolder;
+     font-family: 'Permanent Marker', cursive;
+}
+.why{
+ background-color: rgb(245, 245, 245);
+
+}
+.whyfire{
+    height: min-content;
+    width: 100%;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+  background-image: url(../bg/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    text-align: center;
+    text-decoration: underline;
+    border: 0.1rem solid blue;
+    border-radius:54% 46% 59% 41% / 0% 100% 0% 100%  ;
+padding-bottom: 3rem;
+    font-family: monospace;
+}
+.develope{
+    width: min-content;
+    padding:2rem;
+    border: 0.1rem solid black;
+ border-radius: 1rem;
+ margin-left: 5rem;
+ font-family: monospace;
+}
+.Design{
+    width: min-content;
+    padding:2rem;
+    border: 0.1rem solid black;
+ border-radius: 1rem;
+ margin-left: 25rem;
+ font-family: monospace;
+}
+.database{
+    width: min-content;
+    padding:2rem;
+    border: 0.1rem solid black;
+ border-radius: 1rem;
+ margin-left: 5rem;
+ font-family: monospace;
+}
+
+.formtitle{
+    width: max-content;
+    height: min-content;
+    padding: 1rem;
+font-weight: bold;
+font-size: 1.3rem;
+background-color: rgb(241, 241, 30);
+border: 0.2rem solid yellow;
+width: 100%;
+}
+.form{
+margin-left: 5rem;
+ border: 0.1rem solid black;
+ width:max-content;
+ /* padding:1rem; */
+ text-align:center;
+}
+.formbg{
+    width: max-content;
+text-align: center;
+background-color: white;
+margin-left: 10%;
+}
+.formbg input{
+width: 20rem;
+height: 2rem;
+font-size: 1rem;
+font-family: monospace;
+color: black;
+border: none;
+
+border-bottom: 1px solid black;
+}
+.Submit{
+    padding:0.8rem 3rem;
+    background-color: rgb(77, 223, 77);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
+.Submit:hover{
+    color: black;
+    background-color: yellow;
+
+}
+footer{
+    color: rgb(116, 78, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: black;
+    padding:3rem 0;
+    text-decoration: underline;
+
+}
+.hidden{
+    display: none;
+}
+.msg{
+  
+    color: rgb(94, 255, 45);
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 179);
+    padding: 2rem 0;
+    
+
+}
+@media screen and (max-width:850px) {
+    html{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:550px){
+    html{
+        font-size: 0.4rem;
+    }
+
+        ul{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(18, 18, 54);
+            display: flex;
+            justify-content: right;
+            margin-right: 1rem;
+           flex-direction: column;
+text-align: center;
+margin-top: 5.5rem;
+position: absolute;
+top: 0;
+left: -100%;
+transition: 1s all;
+        }
+      li{
+          padding-top: 3rem;
+      }
+        li a{
+            color: white;
+font-size: 1.5rem;
+        }
+    .top,.bottom,.middle{
+        width: 4rem;
+        height: 0.3rem;
+        background-color: white;
+        margin-top: 0.6rem;
+        cursor: pointer;
+    }
+    .checksystem{
+        margin-top: 1rem;
+        float: right;
+        margin-right: 1rem;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+    .Design{
+        margin-left: 5rem;
+        padding-bottom: 1rem;
+    }
+    .develope{
+        margin-left: 5rem;
+        padding-bottom: 1rem;
+    }
+    .database{
+        margin-left: 5rem;
+        padding-bottom: 1rem;
+    }
+    @media  screen and (max-width:310px) {
+        html{
+            font-size: 0.3rem;
+        }
+    }
+    .formbg{
+        width: 40rem;
+text-align: none;
+  
+    background-color: white;
+    margin-left: 0;
+    
+    }
+    .Design{
+        margin-left: 2rem;
+    }
+   
+    .develope{
+        margin-left: 2rem;
+    }
+    .database{
+        margin-left: 2rem;
+    }
+}
